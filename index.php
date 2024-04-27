@@ -1,5 +1,29 @@
-<?php
-$nombre = $_GET ['n'];
-$correoelectronico = $_GET ['co'];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-echo 'Hola, '.$nombre . ' hemos registrado su correo electrónico correctamente'. $correoelectronico;
+     <form action="resultado.php" method="post">
+        Usuario
+        <br>
+        <input type="text" name="u">
+        <br>
+        
+        Contraseña
+        <br>
+        <input type= "text" contrasea="co">
+        <input type= "submit" value= "enviar">
+
+        
+
+         
+        
+     </form>
+
+ </body> 
+
+</html>
