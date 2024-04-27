@@ -15,7 +15,7 @@
         
         Contraseña
         <br>
-        <input type= "text" contrasea="co">
+        <input type= "text" name="con">
         <input type= "submit" value= "enviar">
 
         

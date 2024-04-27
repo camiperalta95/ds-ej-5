@@ -1,5 +1,5 @@
 <?php
 $usuario = $_POST ['u'];
-$contraseña = $_POST ['con'];
+$contrasena = $_POST ['con'];
 
-echo 'El usuario ingresado es:'. '$usuario'. 'y su contraseña es'. '$contraseña';
+echo 'El usuario ingresado es:'. $usuario. 'y su contraseña es'. $contrasena;
